@@ -1,0 +1,19 @@
+.menu{
+   display: flex;
+   list-style: none;
+   justify-content: center;
+}
+.link{
+   text-decoration: none;
+   color: brown;
+   display: inline-block;
+   padding: 10px 15px;
+}
+.link:global(.active){              
+   color: rgb(29, 73, 86); 
+   font-weight: 700;
+}
+
+/* .link:global(.active){              Селектор глобального класу добавляє клас 
+   color: rgb(131, 115, 115); 
+} */

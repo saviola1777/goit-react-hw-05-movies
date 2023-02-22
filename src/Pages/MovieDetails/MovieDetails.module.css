@@ -1,0 +1,35 @@
+.wrapperMovies{
+   display: grid;
+   justify-content: center;
+   padding: 20px;
+   grid-template-columns: 300px 700px;
+   gap: 20px;
+   background-color: rgba(237, 237, 237, 0.7)
+}
+.img{
+   width: 100%;
+ 
+}
+.text{
+   text-align: justify;
+}
+.genres{
+display: flex;
+gap: 15px;
+
+}
+.genresName{
+   border-left-style: double;
+    border-right-style: double;
+    padding: 0 5px;
+}
+.textVote{
+   color: #565050;
+   font-size: 16px;
+   font-weight: 700;
+   font-family: initial;
+}
+.spanVote{
+   color: #cb7900;
+   font-size: 16px;
+}

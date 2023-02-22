@@ -1,0 +1,37 @@
+.searchbar{
+   display: grid;
+   justify-content: center;
+   margin: 20px auto;
+   max-width: 1600px;
+ }
+ .form{
+   font-size: 20px;
+ }
+ .button{
+   border: none;
+   height: 45px;
+ cursor: pointer;
+   background-image: url(../../../public/background-g6bd8c0d94_640.jpg);
+   border-radius: 10%;
+   color: transparent;
+   font-weight: 700;
+   border-style: solid;
+   margin-left: 5px;
+   width: 70px;
+   background-size: contain;
+ 
+ }
+
+ .input{
+   height: 45px;
+   font-weight: 500;
+   box-sizing: border-box;
+   padding: 0 20px;
+   background: linear-gradient(to right, #ACCECC 0%, #093a5a 61%, #73ADC5 100%);
+   color: azure;
+   font-size: 18px;
+   border: ridge;
+   border-color: cadetblue;
+   
+ 
+ }

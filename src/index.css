@@ -7,9 +7,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 20px 50px;
+  background-image: url('../public/cinema-g7b8cce697_1920.jpg');
+  background-repeat:no-repeat;
+  background-size:auto;
+  background-attachment: fixed ;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }

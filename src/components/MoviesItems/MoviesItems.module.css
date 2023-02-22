@@ -1,0 +1,30 @@
+.items{
+   width: 280px;
+}
+.images{
+   width: 100%;
+}
+.menu{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 25px;
+   justify-content: center;
+   padding:25px 0 ;
+}
+.title{
+   color: rgb(203 203 203);
+   font-size: 12px;
+   font-weight: 700;
+   text-align: center;
+}
+.link{
+ text-decoration: none;
+   cursor: pointer;
+   background: linear-gradient(45deg, #080808, transparent);
+   box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.link:hover{
+  transform: scale(1.1);
+  background: linear-gradient(45deg, #220c0c, transparent);
+  box-shadow: 5px 5px 5px 0px #6e5454, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}

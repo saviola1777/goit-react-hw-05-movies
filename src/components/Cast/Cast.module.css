@@ -1,0 +1,25 @@
+.castList{
+   display: grid;
+   grid-template-columns: repeat(5,1fr);
+   gap: 10px;
+
+}
+.castItems{
+   width: 200px;
+}
+.castImg{
+   width: 100%;
+}
+.wrapperName{
+   background-color: azure;
+   background: linear-gradient(45deg, #2e2e2e, transparent);
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    text-align: center;
+}
+.castText{
+   font-size: 14px;
+   color: antiquewhite;
+   font-weight: 700;
+   font-family: serif;
+
+}

@@ -7,6 +7,7 @@ import MoviesItems from 'components/MoviesItems/MoviesItems'
 import MoreMoviesButton from 'components/MoreMoviesButton/MoreMoviesButton'
 import Loader from 'components/Loader/Loader';
 
+
 const Movies = () => {
   const [movies, stateMovies] = useState([]);
   // const [search, searchrState] = useState('');
@@ -16,16 +17,17 @@ const Movies = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const search = searchParams.get('query');
  
-  console.log(search, movies)
+   console.log('Комрлнент Movies', search)
+  //  console.log('Комрлнент Movies в ньому searchParams ', search)
 
  useEffect(() => {
-    if (search==='') return;
+     if (!search) return;                 // важлива умова якщо  (!search) тобто його немає null то він не робить запит робить ретьорн коли ми щось вели і получили то робить 
      const fetchPosts = async () => {
       try {
         loadingState(true)
         const results = await getSearchMovies(search, page)
         totalPagesState(results?.total_pages)
-        stateMovies(prevState => ([...prevState, ...results?.results]))
+        stateMovies(results?.results)
       }
       catch (error) { console.log(error.message.error)}
       finally {

@@ -33,3 +33,20 @@ gap: 15px;
    color: #cb7900;
    font-size: 16px;
 }
+.wrapperButton{
+   display: grid;
+   gap: 10px;
+   height: fit-content;
+}
+.castButton{
+   padding: 0 20px; 
+   font-size: 20px;
+   color: beige;
+   background: linear-gradient(45deg, #050606, transparent);
+   height: 40px;
+   
+   width: 100px;
+   border: 2px solid #787878;
+   border-radius: 10px 0;
+   cursor: pointer;
+}

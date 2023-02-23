@@ -9,7 +9,7 @@ const Reviews = ()=>{
    const {id}=useParams()
 
    useEffect(()=>{
-      if(!reviews) return 
+      
       const fetchReviews = async()=>{
        try {
          const data = await getReviews(id);

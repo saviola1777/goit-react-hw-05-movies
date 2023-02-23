@@ -2,7 +2,7 @@
    display: grid;
    justify-content: center;
    padding: 20px;
-   grid-template-columns: 300px 700px;
+   grid-template-columns:minmax(100px,300px) minmax(300px,700px) ;
    gap: 20px;
    background-color: rgba(237, 237, 237, 0.7)
 }
